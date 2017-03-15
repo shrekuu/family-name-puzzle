@@ -1,0 +1,39 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .btn-replay {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+}
+
+body .container {
+  margin-top: 20px;
+}
+
+body .card {
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid #91e0ff;
+}
+
+body .card span {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: -1px;
+  margin-top: -1px;
+  font-size: 28px;
+}
+
+body .card.flipped {
+  background: black;
+  border-color: black;
+}
